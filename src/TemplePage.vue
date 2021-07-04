@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Jedi Logo" src="./assets/logo.jpg">
+    <jedi msg="Jedi Temple"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Jedi from './components/Jedi.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Jedi
   }
 }
 </script>
@@ -24,5 +24,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: black;
 }
 </style>
